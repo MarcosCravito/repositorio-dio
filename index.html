@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<!--A cima está representado a forma correta de lincarmos o index.html ao css e a estrutura css 
+de outra pasta.
+
+Para referencia de estudo utilizamos o site 
+do bootstrap que além de conter containers de exemplo 
+contem formulações feitas para alterações e execuções.
+uma <div> é considerada um container,logo a forma adequada de chamar a mesma se da por container
+-->
+
+
+<!--A baixo estamos fazendo o meio de navegação do site, com informações por exemplo como quem
+somos,parceiros e servicços. Se da como um cabeçalho do site-->
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light margin">
+        <a class="navbar-brand" href="#">
+        <img src="https://cdn.pixabay.com/photo/2018/08/19/07/05/background-3616101__340.jpg" width="220" height="80">
+     </a>
+
+     <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">  
+            <li class="nav-item">
+                <a class="nav-link" href="#">Quem somos</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Parceiros</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Serviços</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+        <section id="quemsomos">
+            <div class="container-fluid quem-somos text-center margin">
+                <h3>Quem somos</h3>
+                <img src="https://cdn.pixabay.com/photo/2022/03/16/21/01/gentoo-penguin-7073391__340.jpg" class="rounded-circle" width="200" height="200">
+                <h3>Somos um time de compromisso!</h3>
+
+            </div>
+        </section>
+        
+        <section id="parceiros">
+
+            <div class="container-fluid text-center margin parceiros">
+                <h3>Parceiros</h3>
+                 <div class ="container">
+                      <div class="row">
+                        <div class="col-lg-4">
+                            <img src="https://cdn.pixabay.com/photo/2022/01/15/09/08/le-mont-saint-michel-6939036__340.jpg">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <img src="https://cdn.pixabay.com/photo/2022/03/25/17/54/sakura-7091532__340.jpg">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <img src="https://cdn.pixabay.com/photo/2022/03/07/18/41/forest-7054278__340.jpg">
+                        </div>
+
+                      </div>
+                 </div>
+            </div>
+
+        </section>
+
+            <section id="servicos">
+                <div class="container-fluid text-center margin parceiros">
+                    <h3 class="margin">Serviços</h3>
+
+                    <div class="row">
+
+                        <div class="col-lg-6">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae vel, impedit, laudantium deleniti iste accusantium, distinctio illo odio ex commodi fugiat laborum fugit voluptates ut. Totam labore quas reprehenderit?</p>
+                            <img src="https://cdn.pixabay.com/photo/2022/03/20/14/41/bee-7081014__340.jpg" width="50%">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex magni est, laboriosam corporis itaque repellendus, nostrum quam et optio harum esse tempora ratione modi fugiat. Laudantium modi id cum ab.</p>
+                            <img src="https://cdn.pixabay.com/photo/2022/03/23/07/47/botanical-7086609__340.jpg" width="50%">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum odio, eligendi, dolorum vero possimus quam numquam architecto aliquid dolore aliquam nobis ex! Expedita excepturi, obcaecati magni accusantium hic dolore quisquam!</p>
+                            <img src="https://cdn.pixabay.com/photo/2022/03/13/08/23/flowers-7065535__340.jpg" width="50%">
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <footer class="text-center container-fluid bg-footer margin ">
+                <p class="bg-footer"> Desenvolvido por Marcos</p>
+            </footer>
+ 
+</body>
+</html>
